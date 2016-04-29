@@ -13,7 +13,7 @@ public class MovieTest {
 	private static Movie movie;
 	
 	@Before
-	public void clearCalculator() {
+	public void setUp() {
 		MovieTest.movie = new Movie(MovieTest.title, MovieTest.priceCode);
 	}
 	
